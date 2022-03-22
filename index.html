@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Explore Bhopal!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- =====FOR BOOTSTRAP===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- ======================= -->
+    <!-- ===========CSS========= -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ====================== -->
+  </head>
+  <body>
+    <!-- =========NAVBAR========== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container-fluid">
+        
+          <img
+            class="image6"
+            src="logo.png"
+            alt="logo"
+            style="height: 70x; width: 100px"
+          />
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 65%">
+            <li
+              class="nav-item"
+              style="padding-left: 5%; padding-top: 5%; padding-bottom: 5%"
+            >
+              <a
+                class="nav-link active bg-dark"
+                aria-current="page"
+                href="#home"
+                style="color: white;"
+                >Home</a
+              >
+            </li>
+            <li
+              class="nav-item"
+              style="padding-left: 5%; padding-top: 5%; padding-bottom: 5%"
+            >
+              <a class="nav-link" href="#Malls" style="color: white;">Malls</a>
+            </li>
+            <li
+              class="nav-item"
+              style="padding-left: 5%; padding-top: 5%; padding-bottom: 5%"
+            >
+              <a class="nav-link" href="#Attractions" style="color: white"
+                >Attractions</a
+              >
+            </li>
+            <li
+              class="nav-item"
+              style="padding-left: 5%; padding-top: 5%; padding-bottom: 5%"
+            >
+              <a class="nav-link" href="#Cafes" style="color: white">Cafes</a>
+            </li>
+            <li
+              class="nav-item"
+              style="padding-left: 5%; padding-top: 5%; padding-bottom: 5%"
+            >
+              <a class="nav-link" href="#Contacts" style="color: white"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br id="home" />
+    <br />
+    <br />
+
+    <!-- ===========HOME==========- -->
+
+    <div class="parent bg-dark">
+      <!-- =========IMAGE SLIDESHOW========== -->
+      <div class="slideshow-container image1">
+        <div class="mySlides fade">
+          <img src="college photo.png" style="width: 100%; height: 500px" />
+          <div class="text" style="color: black">VIT Bhopal</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="upperlake1.jpg" style="width: 100%; height: 500px" />
+          <div class="text">Upper Lake</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="crescent 3.jpg" style="width: 100%; height: 500px" />
+          <div class="text" style="color: black">Crescent Water Park</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="udayagiri caves 2.jpg" style="width: 100%; height: 500px" />
+          <div class="text" style="color: rgb(0, 0, 0)">Udayagiri Caves</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="shahi durbar.jpg" style="width: 100%; height: 500px" />
+          <div class="text" style="color: rgb(255, 255, 255)">Shahi Durbar</div>
+        </div>
+        <div class="mySlides fade">
+          <img src="db mall.jpg" style="width: 100%; height: 500px" />
+          <div class="text" style="color: rgb(255, 255, 255)">DB Mall</div>
+        </div>
+      </div>
+    </div>
+    <!-- ============JAVASCRIPT FOR SLIDESHOW=========== -->
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+    <!-- ================================ -->
+
+    <div class="bg-dark">
+      <!-- ===========PLAN YOUR TRIP==========- -->
+
+      <p style="text-align: center">
+        <br />
+        <img src="Map.png" alt="map" style="height: 40px; width: 50px" />
+        <br />
+        <a
+          style="
+            color: wheat;
+            font-size: 45px;
+            font-family: 'Times New Roman', Times, serif;
+          "
+          >Plan Your Trip</a
+        >
+      </p>
+
+      <!-- ===============SPACING================== -->
+
+      <br id="Malls" />
+      <img
+        src="ornament2.png"
+        alt="ornament"
+        class="center"
+        style="height: 40px; width: 120px"
+      />
+      <br />
+      <!-- ======================================= -->
+    </div>
+
+    <!-- ===============MALLS================== -->
+    <div class="bg-dark">
+      <p
+        style="
+          font-family: myFirstFont;
+          color: wheat;
+          font-size: 50px;
+          text-align: center;
+        "
+      >
+        MALLS
+      </p>
+      <!-- ============CARDS FOR MALLS============ -->
+
+      <!-- ============DB MALL============ -->
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 5px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="db mall2.jpg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                DB City Mall
+              </h5>
+              <p class="card-text" style="color: white">
+                Situated in the heart of Bhopal, it is the 11th largest shopping
+                mall in India and the most famous spot for the shopping freaks
+                in Bhopal!
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="http://www.dbcity.in/"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============PEOPLE MALL============ -->
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 10px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="people mall.jpg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                People's Mall
+              </h5>
+              <p class="card-text" style="color: white">
+                Sprawling across a huge outdoor area, the People's Mall is the
+                best place to get a tourist feeling when it comes to visiting
+                the replicas of the greatest buildings around the world!
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://www.triphobo.com/places/bhopal-india/people-s-mall"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ================VIEW MORE BUTTON============== -->
+      <div style="text-align: center">
+        <a
+          class="btn planitinerary-btn"
+          style="background: #e33d3d; color: #fff; margin: 20px"
+          href="mall.html"
+          >View More</a
+        >
+      </div>
+    </div>
+    <!-- =============END OF MALLS============ -->
+
+    <!-- ===============SPACING================== -->
+    <div class="bg-dark">
+      <br id="Attractions" />
+      <img
+        src="ornament2.png"
+        alt="ornament"
+        class="center"
+        style="height: 40px; width: 120px"
+      />
+      <br />
+    </div>
+    <!-- ======================================= -->
+
+    <!-- ===============ATTRACTIONS================== -->
+    <div class="bg-dark">
+      <p
+        style="
+          font-family: myFirstFont;
+          color: wheat;
+          font-size: 50px;
+          text-align: center;
+        "
+      >
+        ATTRACTIONS
+      </p>
+      <!-- ============CARDS FOR ATTRACTIONS============ -->
+
+      <!-- ============UDAYAGIRI CAVES============ -->
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 5px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="udayagiri caves.jpg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                Udayagiri Caves
+              </h5>
+              <p class="card-text" style="color: white">
+                Udayagiri caves is 60 Kms from Bhopal. These are twenty rock-cut
+                caves of Hindus and Jain panthons. They were made during the
+                Gupta period.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://placeandsee.com/wiki/udayagiri-caves"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============VAN VIHAR============ -->
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 10px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="van vihar.jpeg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                Van Vihar National Park
+              </h5>
+              <p class="card-text" style="color: white">
+                It is an amazing world
+                of winged creatures, free ranging ungulates and captive
+                carnivores in the midst of greenery.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://vanviharnationalpark.org/"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============MUSEUM============ -->
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 10px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="museum.jpeg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                National Museum of Mankind
+              </h5>
+              <p class="card-text" style="color: white">
+                The Indira Gandhi Rashtriya Manav Sangrahalaya (National Museum
+                of Mankind) is an anthropology museum that carries the stories of
+                human and cultural evolution in India.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://bhopal.tourismindia.co.in/indira-gandhi-rashtriya-manav-sangrahalaya-national-museum-of-mankind-bhopal"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============TEMPLE============ -->
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 10px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="bhoj temple.jpg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                Bhojpur Temple
+              </h5>
+              <p class="card-text" style="color: white">
+                Bhojpur temple near Bhopal has one of the largest Shivaling cut
+                from one rock. It is famous for the incomplete Bhojesvar temple
+                dedicated to Lord Shiva.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://www.tripadvisor.in/Attraction_Review-g1508512-d3683205-Reviews-Bhojeshwar_Temple-Bhojpur_Raisen_District_Madhya_Pradesh.html"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ================VIEW MORE BUTTON============== -->
+      <div style="text-align: center">
+        <a
+          class="btn planitinerary-btn"
+          style="background: #e33d3d; color: #fff; margin: 20px"
+          href="attractions.html"
+          >View More</a
+        >
+      </div>
+    </div>
+    <!-- =============END OF ATTRACTIONS============ -->
+
+    <!-- ===============SPACING================== -->
+    <div class="bg-dark">
+      <br id="Cafes" />
+      <img
+        src="ornament2.png"
+        alt="ornament"
+        class="center"
+        style="height: 40px; width: 120px"
+      />
+      <br />
+    </div>
+    <!-- ======================================= -->
+
+    <!-- ===============CAFES================== -->
+    <div class="bg-dark">
+      <p
+        style="
+          font-family: myFirstFont;
+          color: wheat;
+          font-size: 50px;
+          text-align: center;
+        "
+      >
+        CAFES
+      </p>
+      <!-- ============CARDS FOR CAFES============ -->
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 5px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="shakes appeal 2.jpg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                Shakes Appeal Cafe
+              </h5>
+              <p class="card-text" style="color: white">
+                One stop destination for all your cravings. It has a huge
+                variety of premium fast food.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://shakesappeal.business.site/"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 10px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="the public house.jpg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                The Public House Restaurant
+              </h5>
+              <p class="card-text" style="color: white">
+                Dinner is better when we eat together says the Public House. It's
+                beautiful ambience and delectable food will make your day
+                worthwhile and memorable.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://thepublichousebhopal.com/"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 10px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="bakenshake.jpg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                Bake N Shake
+              </h5>
+              <p class="card-text" style="color: white">
+                The team provides variety of flavours of sweet baked goods with
+                other fast food items. Dine with them to dig in some amazing
+                speciality of cookies and cakes.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://www.bakenshake.in/"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card mb-3 bg-dark"
+        style="
+          margin: 10px;
+          margin-top: 30px;
+          padding: 30px;
+          padding-left: 200px;
+          border: none;
+          margin-left: 70px;
+        "
+      >
+        <div class="row g-5">
+          <div class="col-md-3">
+            <img
+              src="rolls.jpg"
+              class="img-fluid rounded-start"
+              alt="db mall"
+              style="height: 200px; width: 300px"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="card-body" style="padding-top: 20px">
+              <h5
+                class="card-title"
+                style="
+                  color: white;
+                  font-size: 30px;
+                  font-family: 'Times New Roman', Times, serif;
+                "
+              >
+                Rolls Mania
+              </h5>
+              <p class="card-text" style="color: white">
+                Rolls for taste and coffee for souls describes the Rolls Mania.
+                It can be one of the cafe in your list when planning for a
+                weekend getaway.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  ><a
+                    href="https://www.rollsmania.com/"
+                    target="_blank"
+                    style="color: wheat"
+                    >Read More</a
+                  ></small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ================VIEW MORE BUTTON============== -->
+      <div style="text-align: center">
+        <a
+          class="btn planitinerary-btn"
+          style="background: #e33d3d; color: #fff; margin: 20px"
+          href="cafe.html"
+          >View More</a
+        >
+      </div>
+    </div>
+    <!-- =============END OF CAFES============ -->
+
+    <!-- ===============SPACING================== -->
+    <div class="bg-dark">
+      <br>
+      <br>
+      <br id="Cafes" />
+      <img
+        src="ornament2.png"
+        alt="ornament"
+        class="center"
+        style="height: 40px; width: 120px"
+      />
+     
+    </div>
+    <!-- ======================================= -->
+
+    <!-- ===============CONTACT================== -->
+    <div class="bg-dark">
+      <p
+        style="
+          font-family: myFirstFont;
+          color: wheat;
+          font-size: 50px;
+          text-align: center;
+        "
+        id="Contacts"
+      >
+        CONTACTS
+      </p>
+
+      <div class="card-group">
+        
+          <div
+          class="card bg-dark"
+          style="margin: 8px;  border-color: wheat; border-width: 5px"
+          >
+          <img
+            src="aashi2.jpeg"
+            class="card-img-top"
+            alt="aashi"
+            style="height: 350px"
+          />
+          <div class="card-body">
+            <h5 class="card-title" style="color: white; text-align: center">
+              Aashi Jain
+            </h5>
+            <br>
+            <p class="card-text">
+              <a
+                href="https://www.linkedin.com/in/aashi-jain-437b02224"
+                target="_blank"
+                ><img
+                  src="linked.jpg"
+                  alt="linkedin"
+                  style="height: 30px; width: 30px; margin-left: 5px"
+              /></a>
+              <a
+                href="mailto:reachaashijain@gmail.com"
+                target="_blank"
+                >
+              <img
+                src="gmail.png"
+                alt="gmail"
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+              <a
+                href="https://github.com/reachaashi"
+                target="_blank"
+                >
+              <img
+                src="GitHub-Mark.png"
+                alt="github"
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+              <a
+                href="https://www.instagram.com/axshey_/"
+                target="_blank"
+                >
+              <img
+                src="ig.jpg"
+                alt="instagram"
+                
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+            </p>
+          </div>
+        </div>
+        
+      
+
+
+        
+        <div
+          class="card bg-dark"
+          style="margin: 8px;  border-color: wheat; border-width: 5px"
+        >
+          <img src="soni.jpg" class="card-img-top" alt="soni" />
+          <div class="card-body">
+            <h5 class="card-title" style="color: white; text-align: center">
+              Raghav Soni
+            </h5>
+            <br>
+            <p class="card-text">
+              <a
+                href="https://www.linkedin.com/in/raghavsoni21/"
+                target="_blank"
+                ><img
+                  src="linked.jpg"
+                  alt="linkedin"
+                  style="height: 30px; width: 30px; margin-left: 5px"
+              /></a>
+              <a
+                href="mailto:soniraghav21@gmail.com"
+                target="_blank"
+                >
+              <img
+                src="gmail.png"
+                alt="gmail"
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+              <a
+                href="https://github.com/RaghavSoni21"
+                target="_blank"
+                >
+              <img
+                src="GitHub-Mark.png"
+                alt="github"
+                
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+              <a
+                href="https://www.instagram.com/raghavsoni_21/"
+                target="_blank"
+                >
+              <img
+                src="ig.jpg"
+                alt="instagram"
+                
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-dark"
+          style="margin: 8px; border-color: wheat; border-width: 5px"
+        >
+          <img src="sarwagya.jpeg" class="card-img-top" alt="sarwagya" />
+          <div class="card-body">
+            <h5 class="card-title" style="color: white; text-align: center">
+              Sarwagya Agarwal
+            </h5>
+            <br>
+            <p class="card-text">
+              <a
+                href="https://www.linkedin.com/in/sarwagya-agarwal-2003-/"
+                target="_blank"
+                ><img
+                  src="linked.jpg"
+                  alt="linkedin"
+                  style="height: 30px; width: 30px; margin-left: 5px"
+              /></a>
+              <a
+                href="mailto:sarwagyamxn17@gmail.com"
+                target="_blank"
+                >
+              <img
+                src="gmail.png"
+                alt="gmail"
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+              <a
+                href="https://github.com/Sarwagya123"
+                target="_blank"
+                >
+              <img
+                src="GitHub-Mark.png"
+                alt="github"
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+              <a
+                href="https://www.instagram.com/sarwagyaagarwal/"
+                target="_blank"
+                >
+              <img
+                src="ig.jpg"
+                alt="instagram"
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="card bg-dark"
+          style="margin: 8px; border-color: wheat; border-width: 5px"
+        >
+          <img src="tarushi.jpeg" class="card-img-top" alt="tarushi" />
+          <div class="card-body">
+            <h5 class="card-title" style="color: white; text-align: center">
+              Tarushi Arora
+            </h5>
+            <br>
+            <p class="card-text">
+              <a
+                href="http://linkedin.com/in/tarushiarora"
+                target="_blank"
+                ><img
+                  src="linked.jpg"
+                  alt="linkedin"
+                  style="height: 30px; width: 30px; margin-left: 5px"
+              /></a>
+              <a
+                href="mailto:tarushiarora2525@gmail.com"
+                target="_blank"
+                >
+              <img
+                src="gmail.png"
+                alt="gmail"
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+              <a
+                href="https://github.com/tarushiarora"
+                target="_blank"
+                >
+              <img
+                src="GitHub-Mark.png"
+                alt="github"
+                
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+              <a
+                href="https://www.instagram.com/tarushi_arora25/"
+                target="_blank"
+                >
+              <img
+                src="ig.jpg"
+                alt="instagram"
+               
+                style="height: 30px; width: 30px; margin-left: 55px"
+              /></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- =========FOR BOOTSTRAP ========= -->
+    <script>
+      src =
+        "https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js";
+      integrity =
+        "sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB";
+      crossorigin = "anonymous";
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ================================ -->
+  </body>
+</html>
